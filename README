@@ -1,10 +1,6 @@
 This is a modified cgminer software for Maxcoin stratum mining.
 
-Usage: cgminer --keccak -o stratum+tcp://maxpool.1gh.com:17333 -u YOUR-WALLET -p x
-
-Developed for MAX.1GH.COM pool by reorder.
-MAX: mdr5rGdv5mq4zniSZDb6FdWnhUjV71C5d9
-BTC: 1QCdQmJYUqJh4NJiPgU3LQzz3atvk58oL3
+Usage: cgminer --keccak -o stratum+tcp://erebor.dwarfpool.com:3339 -u YOUR_WALLET -p 1 --failover-only -o stratum+tcp://moria.dwarfpool.com:3339 -u YOUR_WALLET -p 1
 
 How to build:
 sh autohen.sh
@@ -13,7 +9,12 @@ make
 
 
 
+
 Original copyright stack follows
+
+Developed for MAX.1GH.COM pool by reorder.
+MAX: mdr5rGdv5mq4zniSZDb6FdWnhUjV71C5d9
+BTC: 1QCdQmJYUqJh4NJiPgU3LQzz3atvk58oL3
 
 This is a multi-threaded multi-pool GPU, FPGA and ASIC miner with ATI GPU
 monitoring, (over)clocking and fanspeed support for bitcoin and derivative
